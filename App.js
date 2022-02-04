@@ -1,7 +1,15 @@
 import React from "react"
+import Joke from "./Joke"
 
 export default function App() {
   return (
-      <h1>Hi</h1>
+      <div>
+        <Joke />
+        <Joke />
+        <Joke />
+
+      </div>
+      
+
   )
 }
